@@ -1,0 +1,68 @@
+/*!
+ * Start Bootstrap - Logo Nav HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    background-color: #00;
+    font-family: calibri;
+}
+
+.navbar-fixed-top .nav {
+    padding: 15px 0;
+}
+
+.navbar-fixed-top .navbar-brand {
+    padding: 0 15px;
+}
+
+.table table-depan {
+	border-color: #00;
+}
+
+.tab-content {
+	
+}
+
+@media(min-width:768px) {
+    body {
+        padding-top: 100px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        padding: 15px 0;
+    }
+}
+
+.zoom img {
+	border-radius: 17px;
+	-moz-border-radius: 17px;
+	-webkit-border-radius: 17px;
+	box-shadow: 0px 0px 10px #CCC;
+	-moz-box-shadow:0px 0px 10px #CCC;
+	-webkit-box-shadow: 0px 0px 10px #CCC;
+	-webkit-transform:scale(0.8);
+	-moz-transform:scale(0.8);
+	-o-transform:scale(0.8);
+	-webkit-transition-duration:0.5s;
+	-moz-transition-duration:0.5s;
+	-o-transition-duration:0.5s;
+	opacity:0.5;
+}
+
+.zoom img:hover {
+	-webkit-transform:scale(1);
+	-moz-transform:scale(1.1);
+	-o-transform:scale(1.1);
+	box-shadow:0px 0px 30px gray;
+	-webkit-box-shadow:0px 0px 30px gray;
+	-moz-box-shadow:0px 0px 30px gray;
+	opacity:1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 300 !important;
+}
